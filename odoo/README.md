@@ -104,7 +104,7 @@ The default configuration file for the server (located at `/etc/odoo/odoo.conf`)
 $ docker run -v /path/to/config:/etc/odoo -p 8069:8069 --name ibel --link db:db -t ibeltechnology/ibel
 ```
 
-Please use [this configuration template](https://github.com/odoo/docker/blob/master/14.0/odoo.conf) to write your custom configuration as we already set some arguments for running Odoo inside a Docker container.
+Please use [this configuration template](https://github.com/Ibel-technology/docker/blob/main/ibel14/odoo.conf) to write your custom configuration as we already set some arguments for running Odoo inside a Docker container.
 
 You can also directly specify Odoo arguments inline. Those arguments must be given after the keyword `--` in the command-line, as follows
 
