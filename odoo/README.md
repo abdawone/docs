@@ -60,24 +60,24 @@ $ docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=p
 ## Start an Odoo instance
 
 ```console
-$ docker run -p 8069:8069 --name odoo --link db:db -t odoo
+$ docker run -p 8069:8069 --name ibel --link db:db -t ibeltechnology:ibel
 ```
 
-The alias of the container running Postgres must be db for Odoo to be able to connect to the Postgres server.
+The alias of the container running Postgres must be db for Ibel to be able to connect to the Postgres server.
 
 ## Stop and restart an Odoo instance
 
 ```console
-$ docker stop odoo
-$ docker start -a odoo
+$ docker stop ibel
+$ docker start -a ibel
 ```
 
 ## Use named volumes to preserve data
 
-When the Odoo container is created like described above, the odoo filestore is created inside the container. If the container is removed, the filestore is lost. The preferred way to prevent that is by using a Docker named [volume](https://docs.docker.com/storage/volumes/).
+When the Ibel container is created like described above, the ibel filestore is created inside the container. If the container is removed, the filestore is lost. The preferred way to prevent that is by using a Docker named [volume](https://docs.docker.com/storage/volumes/).
 
 ```console
-$ docker run -v odoo-data:/var/lib/odoo -d -p 8069:8069 --name odoo --link db:db -t odoo
+$ docker run -v odoo-data:/var/lib/odoo -d -p 8069:8069 --name ibel --link db:db -t ibeltechnology/ibel
 ```
 
 With the above command, the volume named `odoo-data` will persist even if the container is removed and can be re-used by issuing the same command.
@@ -101,7 +101,7 @@ Restarting a PostgreSQL server does not affect the created databases.
 The default configuration file for the server (located at `/etc/odoo/odoo.conf`) can be overriden at startup using volumes. Suppose you have a custom configuration at `/path/to/config/odoo.conf`, then
 
 ```console
-$ docker run -v /path/to/config:/etc/odoo -p 8069:8069 --name odoo --link db:db -t odoo
+$ docker run -v /path/to/config:/etc/odoo -p 8069:8069 --name ibel --link db:db -t ibeltechnology/ibel
 ```
 
 Please use [this configuration template](https://github.com/odoo/docker/blob/master/14.0/odoo.conf) to write your custom configuration as we already set some arguments for running Odoo inside a Docker container.
