@@ -17,7 +17,7 @@ WARNING:
 # Quick reference
 
 -	**Maintained by**:  
-	[Odoo](https://github.com/odoo/docker)
+	[Ibel technology](https://github.com/Ibel-technology/docker)
 
 -	**Where to get help**:  
 	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
@@ -25,8 +25,6 @@ WARNING:
 # Supported tags and respective `Dockerfile` links
 
 -	[`14.0`, `14`, `latest`](https://github.com/odoo/docker/blob/9534c8c2fd7afed7605d7219358121ec10537bc1/14.0/Dockerfile)
--	[`13.0`, `13`](https://github.com/odoo/docker/blob/9534c8c2fd7afed7605d7219358121ec10537bc1/13.0/Dockerfile)
--	[`12.0`, `12`](https://github.com/odoo/docker/blob/9534c8c2fd7afed7605d7219358121ec10537bc1/12.0/Dockerfile)
 
 # Quick reference (cont.)
 
