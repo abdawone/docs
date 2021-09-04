@@ -29,30 +29,24 @@ WARNING:
 # Quick reference (cont.)
 
 -	**Where to file issues**:  
-	[https://github.com/odoo/docker/issues](https://github.com/odoo/docker/issues)
+	[https://github.com/odoo/docker/issues](https://github.com/Ibel-technology/docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/odoo/)
 
--	**Published image artifact details**:  
-	[repo-info repo's `repos/odoo/` directory](https://github.com/docker-library/repo-info/blob/master/repos/odoo) ([history](https://github.com/docker-library/repo-info/commits/master/repos/odoo))  
-	(image metadata, transfer size, etc)
 
--	**Image updates**:  
-	[official-images repo's `library/odoo` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fodoo)  
-	[official-images repo's `library/odoo` file](https://github.com/docker-library/official-images/blob/master/library/odoo) ([history](https://github.com/docker-library/official-images/commits/master/library/odoo))
+# What is Ibel?
 
--	**Source of this description**:  
-	[docs repo's `odoo/` directory](https://github.com/docker-library/docs/tree/master/odoo) ([history](https://github.com/docker-library/docs/commits/master/odoo))
+<h1>What is Ibel ?</h1>
+<p align="center">
+  <a href="https://github.com/Ibel-technology/ibel">
+    <img src="https://github.com/Ibel-technology/ibel/raw/14.0/addons/web/static/src/img/logo.png" alt="Logo" width="80" height="80">
+  </a>
+</p>
+Ibel is next-generation software that helps you grow your business by providing a comprehensive suite of applications that digitizes, automates and streamlines all of your business activities.
+The main applications are: accounting, inventory management, purchasing, sales, human resources, CRM, project management, website builder, e-commerce, corporate social network etc..
 
-# What is Odoo?
-
-Odoo, formerly known as OpenERP, is a suite of open-source business apps written in Python and released under the LGPL license. This suite of applications covers all business needs, from Website/Ecommerce down to manufacturing, inventory and accounting, all seamlessly integrated. It is the first time ever a software editor managed to reach such a functional coverage. Odoo is the most installed business software in the world. Odoo is used by 2.000.000 users worldwide ranging from very small companies (1 user) to very large ones (300 000 users).
-
-> [www.odoo.com](https://www.odoo.com)
-
-![logo](https://raw.githubusercontent.com/docker-library/docs/a11348f9798f9c5e51e92409ebf4d5b39988fd13/odoo/logo.png)
-
+<a href="https://ibel.app">ibel.app</a>
 # How to use this image
 
 This image requires a running PostgreSQL server.
